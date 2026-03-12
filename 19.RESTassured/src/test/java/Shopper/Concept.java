@@ -12,6 +12,7 @@ public class Concept {
 	@Test(dependsOnMethods="btest")
 	public void atest() {
 		System.out.println("Test A passed");
+		System.out.println("Main");
 	}
 	
 	@Test(dependsOnMethods="atest", invocationCount = 5, enabled = false)
