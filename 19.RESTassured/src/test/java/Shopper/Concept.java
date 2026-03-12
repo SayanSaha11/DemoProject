@@ -6,6 +6,7 @@ public class Concept {
 	@Test
 	public void btest() {
 		System.out.println("Test B passed");
+		System.out.println("Changes Btest");
 	}
 	
 	@Test(dependsOnMethods="btest")
